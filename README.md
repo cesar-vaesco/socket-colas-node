@@ -15,3 +15,8 @@ Ejecutar el comando ```npm install``` para reconstruir los modulos de node
       - Clase Ticket
       - La lógica para atender el siguiente ticket
       - La lógica para atender un ticket
+- 4.-  Socket: Siguiente Ticket
+    - Se ignora la carga de data.json por parte de nodemon
+    - Se agrega la librería e socket.io a nuevo-ticket.html
+    - Se agregan los eventos para escuchar y emitir la creación de un nuevo ticket en nuevo-ticket.js
+    - En el controlador del socket,se configua la escucha del siguiente ticket y se emite la información del último ticket
