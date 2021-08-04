@@ -25,3 +25,6 @@ Ejecutar el comando ```npm install``` para reconstruir los modulos de node
     - Se crean los eventos y las referencias html
 - 6.- Socket: Atender un ticket
     - Se pone a la escucha a la app por medio de sockets para identificar si existen ticktes por atender
+- 7.- Mostrar cola tickets en pantalla
+    - Configurar selectores para mostrar información sobre ticket atendido y en que mesa se genera la atención
+    - Se configura el controller para que este a la escucha del estado actual de los ultimos 4 tickets atendidos
