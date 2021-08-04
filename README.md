@@ -1,5 +1,12 @@
-# Socket Server Basico
+# Socket Colas - Web Server
 
-Un servidor de Websockets usando Node, Express y Socket.io
+Ejecutar el comando ```npm install``` para reconstruir los modulos de node
 
-Temas cubiertos en mi curso de Node de cero a experto
+- 1.- Inicializando proyecto
+    -  Instalacion de dependencias: "cors","dotenv","express","socket.io"
+    -  Usando estructura prevía
+- 2.- Clase para centralizar la lógica de los tickets
+    - Se crea el modelo de la data (JSON)
+    - Se crea la clase TicketControl
+      - Se inicializa al iniciarce el programa a la par del controller
+      - En la clase del controller se instancia un objeto de la clase TicketControl
