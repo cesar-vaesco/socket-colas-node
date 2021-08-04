@@ -28,3 +28,5 @@ Ejecutar el comando ```npm install``` para reconstruir los modulos de node
 - 7.- Mostrar cola tickets en pantalla
     - Configurar selectores para mostrar información sobre ticket atendido y en que mesa se genera la atención
     - Se configura el controller para que este a la escucha del estado actual de los ultimos 4 tickets atendidos
+- 8.- Tickets pendientes por atender
+    - Se reo el evento que permite mostrar que en todos los escritorios los tickets por atender
