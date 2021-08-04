@@ -23,3 +23,5 @@ Ejecutar el comando ```npm install``` para reconstruir los modulos de node
 - 5.- Preparar pantalla de escritorio
     - Mostrar información donde se muestre en pantalla el número de escritorio y el ticket
     - Se crean los eventos y las referencias html
+- 6.- Socket: Atender un ticket
+    - Se pone a la escucha a la app por medio de sockets para identificar si existen ticktes por atender

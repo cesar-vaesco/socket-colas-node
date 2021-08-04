@@ -81,7 +81,7 @@ class TicketControl {
 
         this.ultimosCuatro.unshift( ticket );
 
-        if( this.ultimosCuatro > 4 ){
+        if( this.ultimosCuatro.length > 4 ){
             this.ultimosCuatro.splice( -1, 1 );
         }
 
