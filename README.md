@@ -30,3 +30,6 @@ Ejecutar el comando ```npm install``` para reconstruir los modulos de node
     - Se configura el controller para que este a la escucha del estado actual de los ultimos 4 tickets atendidos
 - 8.- Tickets pendientes por atender
     - Se reo el evento que permite mostrar que en todos los escritorios los tickets por atender
+- 9 .- Reproducir audio cuando se asigna un ticket
+    - Se instancia una nueva instancia de audio la cual recibe como prametro la dirección donde esta almacenada el audio
+  ```PAra scuchar el audio solo es posible hacerlo a traves del navegador modzila ya que chrome o edge tienen bloqueado los audios a no ser qu sea el usuario quien los emita, pero no de forma automatica ```

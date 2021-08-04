@@ -45,8 +45,9 @@ socket.on('tickets-pendientes', ( pendientes ) => {
         lblPendientes.style.display = 'none'
     } else {
 
-        lblPendientes.style.display = ''
         lblPendientes.innerText = pendientes;
+        lblPendientes.style.display = ''
+
     }
 
 
@@ -62,6 +63,7 @@ btnAtender.addEventListener('click', () => {
         }
 
         lblTicket.innerText = `ticket ${ ticket.numero }`;
+        divAlerta.style.display = 'none';
     });
 
 });
